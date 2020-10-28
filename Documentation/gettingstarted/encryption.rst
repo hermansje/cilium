@@ -107,6 +107,11 @@ In order to enable node-to-node encryption, add:
     --set encryption.enabled=true \
     --set encryption.nodeEncryption=true
 
+.. note::
+
+    Node to node encryption feature is tested and supported with direct routing
+    modes. Using with encapsulation/tunneling is not currently tested or supported.
+
 Validate the Setup
 ==================
 
